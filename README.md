@@ -34,3 +34,12 @@ npm run dev
 npm run build
 npx wrangler deploy
 ```
+
+## Consensus Comparison
+
+| Property | Permissionless | Permissioned |
+| :--- | :--- | :--- |
+| Entry | Open | CA-Gated |
+| Finality | Probabilistic | Deterministic |
+| Consensus | PoW / PoS | PBFT / Raft |
+| Trust | Cryptographic | Identity (MSP) |
